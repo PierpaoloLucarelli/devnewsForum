@@ -5,4 +5,4 @@ from django.views.generic import TemplateView
 # Create your views here.
 
 def index(request):
-    return render(request, 'index.html', context=None)
+    return render(request, 'forum/index.html', context=None)
