@@ -4,4 +4,82 @@ body{
     width: 100%;
     background: #fefefe;
     clear: both;
+    color: #535a60;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#clear{
+    clear: both;
+}
+
+a{
+    color: #535a60;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #2ecc71;
+}
+
+button{
+    border: none;
+    padding: 7px 12px;
+    border-radius: 5px;
+    background: #2ecc71;
+    color: #fff;
+}
+
+/*nav*/
+nav{
+    padding: 10px 40px;
+    background: #fefefe;
+    border-top: 3px solid #2ECC71;
+    border-bottom: 1px solid black;
+    float: left;
+    width: 100%;
+}
+
+#logo{
+    padding: 0px 12px;
+    float: left;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+#logo img{
+    width: 120px;
+}
+
+#nav-list{
+    padding: 12px 12px;
+    margin: 0;
+    font-size: 0.9em;
+    float: right;
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+}
+
+#nav-list li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#login-list{
+    padding: 8px 12px;
+    margin: 0;
+    float: right;
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+#login-list li{
+    display: inline-block;
 }
