@@ -31,6 +31,14 @@ button{
     border-radius: 5px;
     background: #2ecc71;
     color: #fff;
+    border: solid 1px #2dcc71;
+}
+
+button:hover{
+    background: #fefefe;
+    color: #2ecc71;
+    cursor: pointer;
+    border: 1px solid #ccc;
 }
 
 /*nav*/
@@ -82,4 +90,8 @@ nav{
 
 #login-list li{
     display: inline-block;
+}
+
+#login-list li button {
+    margin: 0 5px;
 }
