@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -43,16 +43,17 @@ button:hover{
 
 /*nav*/
 nav{
-    padding: 10px 40px;
     background: #fefefe;
     border-top: 3px solid #2ECC71;
-    border-bottom: 1px solid black;
     float: left;
     width: 100%;
 }
 
+nav .container{
+    padding: 10px 0;
+}
+
 #logo{
-    padding: 0px 12px;
     float: left;
     display: inline-block;
     margin: 0;
@@ -94,4 +95,18 @@ nav{
 
 #login-list li button {
     margin: 0 5px;
+}
+
+/*banner*/
+
+#banner{
+    background: #2ecc71;
+    height: 300px;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#banner h3{
+    margin-top: 0;
 }

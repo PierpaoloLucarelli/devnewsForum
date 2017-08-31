@@ -4,8 +4,14 @@
     {% include 'forum/nav/nav.html' %}
 {% endblock %}
 
-{% block body %}
+{% block banner %}
+<div id="banner">
     <div class="container">
-        <h2>Ultime domande</h2>
+        <h3>Fai domande e ricevi le migliori risposte!</h3>
     </div>
+</div>
+{% endblock %}
+
+{% block body %}
+    {% include 'forum/questions/latest/latest.html' %}
 {% endblock %}
