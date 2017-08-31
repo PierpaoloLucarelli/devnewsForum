@@ -61,7 +61,7 @@ docs/_build/
 target/
 uploads/
 eos/
-postgresl-data/
+postgres-data/
 
 .idea/
 node_modules/
