@@ -12,6 +12,25 @@ body{
     margin: 0 auto;
 }
 
+.body-left, .body-right{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    display: inline-block;
+    border: none;
+}
+
+.body-left{
+    width: 75%;
+    float: left;
+}
+
+.body-right{
+    width: 25%;
+    float: left;
+}
+
 #clear{
     clear: both;
 }
@@ -19,6 +38,10 @@ body{
 a{
     color: #535a60;
     text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer
 }
 
 a:hover{
@@ -109,4 +132,73 @@ nav .container{
 
 #banner h3{
     margin-top: 0;
+}
+
+
+/*questions*/
+
+.questions{
+    overflow:hidden;
+}
+
+.question{
+    overflow:hidden;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0 20px;
+}
+
+.questions-list{
+    list-style: none;
+    overflow:hidden;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.questions-list li{
+    overflow:hidden;
+}
+
+.q-meta{
+    width: 30%;
+    float: left;
+    color: #6a737c;
+}
+
+.q-body{
+    float: left;
+    width: 70%;
+}
+
+.views-number{
+    font-size: 2em;
+}
+
+.meta-label{
+    font-size: 0.7em;
+}
+
+.q-body{
+    margin-bottom: 13px;
+}
+
+.q-body a{
+    color: #2ecc71;
+    font-size: 1.2em;
+}
+
+.q-body a:hover{
+    color: #33e07b;
+}
+
+.q-post-details{
+    font-size: 0.8em;
+    color: #6a737c;
+}
+
+.q-date-published, .q-author{
+    color: #2ecc71;
+}
+
+.q-author:hover{
+    color: #33e07b;
 }
